@@ -1,4 +1,4 @@
-# mijecu25.com
+# web
 Personal page for research institutions
 
 ## License
