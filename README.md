@@ -1,6 +1,5 @@
 # mijecu25.com
-
-[Mijecu25](http://www.mijecu25.com/) website
+Personal page for research institutions
 
 ## License
  
