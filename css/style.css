@@ -1,0 +1,272 @@
+body { 
+	font-family: "Times New Roman", sans-serif; 
+	background-color: #fff;
+	line-height: normal;
+    font-size: 13pt;
+}
+
+p {
+	font-size: 100%; 
+	text-align: justify;
+}
+
+a {
+    color: #0000EE; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: purple;
+}
+
+#content {
+    width: 1100px;
+}
+
+table.center {
+    margin-right: auto;
+	margin-left: auto;
+	background-color: "FFFFFF";
+	padding: 1px;
+	border-spacing: 1px;
+    border-collapse: separate;    
+}
+
+.main-table {
+    border: 0;
+    width: 90%;
+    
+}
+
+.header-table {
+    width: 100%;
+}
+
+.body-table {
+    width: 100%;
+}
+
+.logo {
+	width: 300px;
+    height: auto;
+    left: 2px;
+    vertical-align: top;
+}
+
+.header-mijecu25 {
+    height: 50px;
+    width: 300px;
+}
+
+.navigation-items {
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 150%;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.navigation-items li {
+	padding-left: 5px;
+    padding-right: 5px;
+	display: inline;
+	list-style-type: none;
+}
+
+.navigation-items li a {
+	text-decoration: none;
+	color: #1C1C1C;
+}
+
+.navigation-items li a:hover {
+	color: #585858;
+	border-bottom: 4px solid #0000FF;
+}
+
+.landing-page {
+    vertical-align: top;
+    width: 420px;
+}
+
+.landing-page-title {
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0.25em;
+}
+
+.landing-page-description {
+    font-size: 100%;
+}
+
+.landing-page-image-container {
+    text-align: right;
+    width: 420px;
+    height: auto;
+    padding-left: 10px;
+}
+
+#landing-page-image {
+    text-align: right;
+    height: 310px;
+    width: 500px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.spaced-list {
+	font-size: 100%;
+    line-height: 130%;
+}
+
+
+/**************************************** Team ****************************************/
+
+figure {
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-member-photo {
+    height: 160px;
+    width: 160px;
+	margin-bottom: 10px;
+}
+
+
+/**************************************** Products ****************************************/
+.products-landing-page-title {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+    margin: .25em;
+}
+
+.product {
+    display: inline-block;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 300px; 
+}
+
+.product-image {
+    height: 64px;
+    width: 64px;
+}
+
+.product-name {
+    position: relative;
+    top: -22px;
+    left: 5px;
+    font-size: 150%;
+}
+
+
+/**************************************** Team member profiles ****************************************/
+.member-picture-container {
+    text-align: right;
+    vertical-align: top;
+    width: 300px;
+}
+
+.member-picture {
+    height: 160px;
+    width: 160px; 
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 250%;
+    margin-bottom: 0.25em;
+}
+
+.member-tag-line {
+    font-size: 120%;
+    margin-bottom: 0.25em;
+}
+
+
+/**************************************** Images ****************************************/
+
+.linkedin-image {
+    height: 32px;
+    width: 32px;
+}
+
+
+/**************************************** Unity games ****************************************/
+p.header {
+    font-size: small;
+}
+
+p.header span {
+    font-weight: bold;
+}
+
+p.footer {
+    font-size: x-small;
+}
+
+div.content {
+    margin: auto;
+    width: 960px;
+}
+
+div.broken, div.missing {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    width: 193px;
+}
+
+div.broken a, div.missing a {
+    height: 63px;
+    position: relative;
+    top: -31px;
+}
+
+div.broken img, div.missing img {
+    border-width: 0px;
+}
+
+div.broken {
+    display: none;
+}
+
+div#unityPlayer {
+    cursor: default;
+    height: 600px;
+    width: 960px;
+}
+
+
+/**************************************** Unity Web Games ****************************************/
+.game-title {
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    margin: .25em;
+}
+
+.game-description {
+    text-align: center;
+    margin: 1em;
+}
