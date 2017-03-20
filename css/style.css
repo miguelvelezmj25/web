@@ -1,15 +1,122 @@
 body { 
-	font-family: "Times New Roman", sans-serif; 
-	background-color: #fff;
-	line-height: normal;
-    font-size: 13pt;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
 }
 
 p {
-	font-size: 100%; 
-	text-align: justify;
+	line-height: 148%;
+	margin-bottom: 1em;
 }
 
+div {
+    line-height: 148%;
+}
+
+a {
+    color: #0000EE; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: purple;
+}
+
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.container_0 {
+    width: 220px;
+}
+
+.container_1 {
+    width: 700px;
+}
+
+.container_2 {
+    width: 240px;
+}
+
+.container_3 {
+    width: 160px;
+}
+
+.container_4 {
+    width: 100px;
+}
+
+.container_5 {
+    width: 840px;
+}
+
+.grid_0 {
+    display: inline;
+    float: left;
+}
+
+.grid_1 {
+    margin-left: 10px;
+}
+
+.grid_2 {
+    margin-right: 10px;
+}
+
+.member-picture {
+    height: 264px;
+    width: 240px; 
+}
+
+.small-image {
+    height: 32px;
+    width: 32px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.footer {
+	text-align: center;
+}
+
+.lock_height {
+    height: 100%;
+}
+
+/*
 a {
     color: #0000EE; 
     text-decoration: none;
@@ -118,9 +225,7 @@ table.center {
     width: 500px;
 }
 
-.footer {
-	text-align: center;
-}
+
 
 .spaced-list {
 	font-size: 100%;
@@ -132,8 +237,6 @@ table.center {
     padding-right: 15px; 
     padding-left: 15px;
 }
-
-/**************************************** Team ****************************************/
 
 figure {
 	display: inline-block;
@@ -151,8 +254,6 @@ figure {
 	margin-bottom: 10px;
 }
 
-
-/**************************************** Products ****************************************/
 .products-landing-page-title {
     font-size: 150%;
     font-weight: bold;
@@ -180,8 +281,6 @@ figure {
     font-size: 150%;
 }
 
-
-/**************************************** Team member profiles ****************************************/
 .member-picture-container {
     text-align: right;
     vertical-align: top;
@@ -205,7 +304,6 @@ figure {
 }
 
 
-/**************************************** Images ****************************************/
 
 .linkedin-image {
     height: 32px;
@@ -217,7 +315,6 @@ figure {
     width: 32px;
 }
 
-/**************************************** Unity games ****************************************/
 p.header {
     font-size: small;
 }
@@ -226,9 +323,7 @@ p.header span {
     font-weight: bold;
 }
 
-p.footer {
-    font-size: x-small;
-}
+
 
 div.content {
     margin: auto;
@@ -262,8 +357,6 @@ div#unityPlayer {
     width: 960px;
 }
 
-
-/**************************************** Unity Web Games ****************************************/
 .game-title {
     font-size: 180%;
     font-weight: bold;
@@ -275,3 +368,4 @@ div#unityPlayer {
     text-align: center;
     margin: 1em;
 }
+*/
