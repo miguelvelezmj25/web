@@ -115,3 +115,7 @@ a:visited:hover {
 .lock_height {
     height: 100%;
 }
+
+.margin_bottom {
+    margin-bottom: 16px;
+}
