@@ -1,11 +1,14 @@
 body { 
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 h1 {
     font-size: 300%;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -53,11 +56,11 @@ a:visited:hover {
 }
 
 .container_1 {
-    width: 700px;
+    width: 680px;
 }
 
 .container_2 {
-    width: 240px;
+    width: 260px;
 }
 
 .container_3 {
@@ -86,8 +89,8 @@ a:visited:hover {
 }
 
 .member-picture {
-    height: 264px;
-    width: 240px; 
+    height: 286px;
+    width: 260px; 
 }
 
 .small-image {
