@@ -13,6 +13,7 @@ h1 {
 
 h2 {
     font-size: 200%;
+    margin-top: 15px;
 }
 
 p {
@@ -56,11 +57,11 @@ a:visited:hover {
 }
 
 .container_1 {
-    width: 680px;
+    width: 670px;
 }
 
 .container_2 {
-    width: 260px;
+    width: 270px;
 }
 
 .container_3 {
@@ -89,8 +90,8 @@ a:visited:hover {
 }
 
 .member-picture {
-    height: 286px;
-    width: 260px; 
+    height: 297px;
+    width: 270px; 
 }
 
 .small-image {
