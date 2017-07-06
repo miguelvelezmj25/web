@@ -9,12 +9,13 @@ h1 {
     font-size: 300%;
     font-weight: bold;
     line-height: normal;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 200%;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -122,5 +123,13 @@ a:visited:hover {
 }
 
 .margin_bottom {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
+}
+
+.margin_bottom_1 {
+    margin-bottom: 10px;
+}
+
+.no_margin_bottom {
+    margin-bottom: 0px;
 }
