@@ -93,15 +93,6 @@ a:visited:hover {
     padding-bottom  :4px;
 }
 
-.test {
-    background-color: #990000;
-    position:fixed;
-/*    top:0;*/
-    width:200%;
-    padding-top:4px;
-    padding-bottom  :4px;
-}
-
 .navbar a {
     color : white;
 }
