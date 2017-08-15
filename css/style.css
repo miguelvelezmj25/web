@@ -114,6 +114,15 @@ a:visited:hover {
     margin-right: 10px;
 }
 
+.grid_3 {
+    margin-right: 20px;
+}
+
+.dbpl {
+    position: relative;
+    top: 6px;
+}
+
 .member-picture {
     height: 319px;
     width: 290px; 
