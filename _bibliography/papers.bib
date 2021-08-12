@@ -1,70 +1,262 @@
----
----
+% Encoding: UTF-8
 
-@string{aps = {American Physical Society,}}
+@String{ACM           = {ACM}}
+@String{ACMAddr       = {New York, NY, USA}}
+@String{ACMPress      = {ACM Press}}
+@String{AOSD          = {Proc. Int'l Conf. Aspect-Oriented Software Development (AOSD)}}
+@String{ASE           = {Proc. Int'l Conf. Automated Software Engineering (ASE)}}
+@String{ASPLOS        = {Proc. Int'l Conf. Architectural Support for Programming Languages and Operating Systems (ASPLOS)}}
+@String{AWL           = {Addison-Wesley}}
+@String{AWLAddr       = {Boston, MA, USA}}
+@String{CACM          = {Commun. ACM}}
+@String{CHI           = {Proc. Conf. Human Factors in Computing Systems (CHI)}}
+@String{CSCW          = {Proc. Conf. Computer Supported Cooperative Work (CSCW)}}
+@String{ENHI          = {Elsevier North-Holland, Inc.}}
+@String{ENHIAddr      = {Amsterdam, The Netherlands}}
+@String{ESECFSE       = {Proc. Europ. Software Engineering Conf. Foundations of Software Engineering (ESEC/FSE)}}
+@String{FOSE          = {Proc. Future of Software Engineering (FOSE)}}
+@String{FSE           = {Proc. Int'l Symp. Foundations of Software Engineering (FSE)}}
+@String{GPCE          = {Proc. Int'l Conf. Generative Programming and Component Engineering (GPCE)}}
+@String{ICCPS         = {Proc. Int'l Conf. Cyber-Physical Systems (ICCPS)}}
+@String{ICRS          = {Proc. Int'l Reliable Software}}
+@String{ICSE          = {Proc. Int'l Conf. Software Engineering (ICSE)}}
+@String{ICSME         = {Proc. Int'l Conf. Software Maintance and Evolution (ICSME)}}
+@String{ICSR          = {Proc. Int'l Conf. Software Reuse (ICSR)}}
+@String{IEEE          = {IEEE}}
+@String{IEEEAddr      = {Los Alamitos, CA, USA}}
+@String{IEEEAddrW     = {Washington, DC, USA}}
+@String{IEEECSP       = {IEEE Computer Society Press}}
+@String{IEEEPressAddr = {Piscataway, NJ, USA}}
+@String{IEEESoftware  = {IEEE Softw.}}
+@String{ISSTA         = {Proc. Int'l Symp. Software Testing and Analysis (ISSTA)}}
+@String{ITHINGS       = {Proc. Int'l Conf. Internet of Things (iThings)}}
+@String{MIT           = {MIT Press}}
+@String{MITAddr       = {Cambridge, MA, USA}}
+@String{MSR           = {Proc. Int'l Conf. Mining Software Repositories}}
+@String{OOPSLA        = {Proc. Int'l Conf. Object-Oriented Programming, Systems, Languages and Applications (OOPSLA)}}
+@String{PLDI          = {Proc. Conf. Programming Language Design and Implementation (PLDI)}}
+@String{POPL          = {Proc. Symp. Principles of Programming Languages (POPL)}}
+@String{RE            = {Proc. Int'l Requirements Engineering Conf. (RE)}}
+@String{SCAM          = {Proc. Int'l Conference Source Code Analysis and Manipulation (SCAM)}}
+@String{SCP           = {Sci. Comput. Program.}}
+@String{SIGPLANNOT    = {SIGPLAN Notices}}
+@String{SIGSOFTNotes  = {SIGSOFT Softw. Eng. Notes}}
+@String{SoSyM         = {Softw. Syst. Model. (SoSyM)}}
+@String{SPLC          = {Proc. Int'l Software Product Line Conference (SPLC)}}
+@String{SV            = {Springer-Verlag}}
+@String{SVBAddr       = {Berlin/Heidelberg, Germany}}
+@String{SVNJAddr      = {Secaucus, NJ, USA}}
+@String{SVNY          = {Springer-Verlag New York, Inc.}}
+@String{SVNYAddr      = {New York, NY, USA}}
+@String{TOSEM         = {ACM Trans. Softw. Eng. Methodol. (TOSEM)}}
+@String{TSE           = {IEEE Trans. Softw. Eng. (TSE)}}
+@String{VAMOS         = {Proc. Workshop Variability Modeling of Software-Intensive Systems (VAMOS)}}
 
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{VJSSAK:ASEJ20,
+  author  = {Velez, Miguel and Jamshidi, Pooyan and Sattler, Florian and Siegmund, Norbert and Apel, Sven and Kästner, Christian},
+  journal = {Autom Softw Eng},
+  title   = {ConfigCrusher: Towards White-Box Performance Analysis for Configurable Systems},
+  year    = {2020},
+
+  abbr={ASEJ},
+  pdf={VJSSAK-ASEJ20.pdf},    
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{JSVKPA:ASE17,
+        author    = {Pooyan Jamshidi and Norbert Siegmund and Miguel Velez and Christian K\"{a}stner and Akshay Patel and Yuvraj Agarwal},
+        title     = {Transfer Learning for Performance Modeling of Configurable Systems: An Exploratory Analysis},
+        booktitle = ASE,
+        year      = {2017},
+        publisher = ACM,
+        location  = {Urbana-Champaign, IL, USA},
+        month     = oct,
+        addendum  = {(21\% acceptance rate)},
+        address   = ACMAddr,
+        numpages  = {13},
+
+        abbr={ASE},
+        pdf={JSVKPA-ASE17.pdf},  
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{JVKSK:SEAMS17,
+        author    = {Jamshidi, Pooyan and Velez, Miguel and K\"{a}stner, Christian and Siegmund, Norbert and Kawthekar, Prasad},
+        title     = {Transfer Learning for Improving Model Predictions in Highly Configurable Software},
+        booktitle = {Proc. Int'l Symp. Software Engineering for Adaptive and Self-Managing Systems (SEAMS)},
+        year      = {2017},
+        pages     = {31--41},
+        address   = IEEEAddr,
+        month     = may,
+        publisher = IEEE,
+        addendum  = {(23\% acceptance rate)},
+        location  = {Buenos Aires, Argentina},
+        numpages  = {11},
+
+        abbr={SEAMS},
+        pdf={JVKSK-SEAMS17.pdf},   
+        slides={JVKSK-SEAMS17-slides.pdf}, 
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{JVKS:FSE18,
+  author    = {Jamshidi, Pooyan and Velez, Miguel and K\"{a}stner, Christian and Siegmund, Norbert},
+  title     = {Learning to Sample: Exploiting Similarities Across Environments to Learn Performance Models for Configurable Systems},
+  booktitle = FSE,
+  year      = {2018},
+  publisher = ACM,
+  location  = {Lake Buena Vista, FL, USA},
+  month     = nov,
+  pages     = {71--82},
+  addendum  = {(21\% acceptance rate)},
+  address   = ACMAddr,
+  numpages  = {12},
+
+  abbr={FSE},
+  pdf={JVKS-FSE18.pdf},  
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{VJSAK:ICSE21,
+  author    = {Velez, Miguel and Jamshidi, Pooyan and Siegmund, Norbert and Apel, Sven and Kästner, Christian},
+  booktitle = ICSE,
+  title     = {White-Box Analysis over Machine Learning: Modeling Performance of Configurable Systems},
+  year      = {2021},
+  month     = may,
+  publisher = IEEE,
+  addendum  = {(23\% acceptance rate)},
+  location  = {Madrid, Spain},
+  numpages  = {11},
+
+  abbr={ICSE},
+  pdf={VJSAK-ICSE21.pdf},  
+  slides={todo.pdf}, 
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{VSIC:FiC16,
+        author    = {Velez, Miguel and Sawin, Jason and Ingerson, Alexia and Chiu, David},
+        title     = {Improving Bitmap Execution Performance Using Column-Based Metadata},
+        booktitle = {Int'l Conf. Future Internet of Things and Cloud (FiCloud)},
+        year      = {2016},
+        pages     = {371-378},
+        month     = aug,
+        publisher = IEEE,
+        addendum  = {(30\% acceptance rate)},
+        keywords  = {rank5},
+        location  = {Vienna, Austria},
+
+        abbr={FiCloud},
+        pdf={VSIC-FiC16.pdf},  
+}
+
+@TechReport{VJSSAK:ARCHIVE20,
+  author      = {Velez, Miguel and Jamshidi, Pooyan and Sattler, Florian and Siegmund, Norbert and Apel, Sven and Kästner, Christian},
+  institution = {arXiv},
+  title       = {ConfigCrusher: Towards White-Box Performance Analysis for Configurable Systems},
+  year        = {2020},
+  month       = {7},
+  number      = {1905.02066v2},
+
+  abbr={arXiv},
+  pdf={VSJSAK-ARCHIVE19.pdf}, 
+}
+
+@Manual{V:TP20,
+  title        = {White-box Analysis for Modeling and Debugging the Performance of Configurable Systems},
+  author       = {Miguel Velez},
+  month        = dec,
+  year         = {2020},
+  howpublished = {Ph.D. Thesis Proposal},
+  school       = {Carnegie Mellon Univesity},
+
+  abbr={CMU},
+  pdf={V-TP20.pdf},  
+  slides={V-TP20-slides.pdf},  
+  poster={V-TP20-poster.pdf},
+}
+
+@Misc{VJKSSA-BRASS17,
+        author       = {Velez, Miguel and Jamshidi, Pooyan and K\"{a}stner, Christian and Siegmund, Norbert and Sattler, Florian and Apel, Sven},
+        title        = {White-Box Performance Discovery},
+        howpublished = {Poster. BRASS PI Meeting},
+        month        = nov,
+        year         = {2017},
+        keywords     = {rank5},
+        location     = {Seattle, WA, USA},
+
+        abbr={CMU},
+        poster={VJKSSA-BRASS17.pdf},  
+}
+
+@Misc{VJKSSA-PIRC19,
+  author       = {Velez, Miguel and Jamshidi, Pooyan and K\"{a}stner, Christian and Siegmund, Norbert and Sattler, Florian and Apel, Sven},
+  title        = {White-Box Performance Discovery},
+  year         = {2019},
+  howpublished = {Poster. Google PhD Intern Research Conference},
+  location     = {Sunnyvale, CA, USA},
+  month        = jul,
+
+  abbr={Google},
+  poster={VJKSSA-PIRC19.pdf},  
+}
+
+@Misc{VS:IUST16,
+        author       = {Velez, Miguel and Sawin, Jason},
+        title        = {Improving the Efficiency of CHA through Parallelization},
+        howpublished = {Poster. Inquiry at St. Thomas},
+        month        = may,
+        year         = {2016},
+        keywords     = {rank5},
+        location     = {St. Paul, MN, USA},
+
+        abbr={UST},
+        poster={VS-IUST16.pdf},  
+}
+
+@Misc{VS:CCSC15,
+        author       = {Velez, Miguel and Sawin, Jason},
+        title        = {Faster {WAH} Compression Querying through the Use of Metadata},
+        howpublished = {Poster. Consortium for Computing Sciences in Colleges Midwest Region},
+        month        = oct,
+        year         = {2015},
+        note         = {{1$^{st}$} place Discovery Track},
+        keywords     = {rank5},
+        location     = {Evansville, IN, USA},
+
+        abbr={UST},
+        poster={VS-CCSC15.pdf},  
+}
+
+@Misc{VS:MSRP15,
+        author       = {Velez, Miguel and Solar-Lezama, Armando},
+        title        = {Simpler Implementation of {Sketches} through Enhanced Expressiveness},
+        howpublished = {Poster. MIT Summer Research Poster Session},
+        month        = aug,
+        year         = {2015},
+        keywords     = {rank5},
+        location     = {Cambridge, MA, USA},
+
+        abbr={MIT},
+        poster={VS-MSRP15.pdf},
+}
+
+@Misc{V:SUMMA15,
+        author       = {Velez, Miguel},
+        title        = {Current and Future Relationships Between Robots and Humans},
+        howpublished = {Summa Cum Laude Paper},
+        month        = apr,
+        year         = {2015},
+        keywords     = {rank5},
+
+        abbr={UST},
+        poster={V-SUMMA15.pdf},
+}
+
+@Misc{VGS:IUST14,
+        author       = {Velez, Miguel and Gittins, Peter and Sawin, Jason},
+        title        = {Extending {SMILES} to Encode Reaction Mechanisms},
+        howpublished = {Poster. Inquiry at St. Thomas},
+        month        = may,
+        year         = {2014},
+        keywords     = {rank5},
+        location     = {St. Paul, MN, USA},
+
+        abbr={UST},
+        poster={VGS-IUST14.pdf},
 }
