@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/~mvelezce/static/css/main.e6064ea0.chunk.css",
+    "main.js": "/~mvelezce/static/js/main.53514817.chunk.js",
+    "main.js.map": "/~mvelezce/static/js/main.53514817.chunk.js.map",
+    "runtime-main.js": "/~mvelezce/static/js/runtime-main.7f75dade.js",
+    "runtime-main.js.map": "/~mvelezce/static/js/runtime-main.7f75dade.js.map",
+    "static/js/2.1acf408b.chunk.js": "/~mvelezce/static/js/2.1acf408b.chunk.js",
+    "static/js/2.1acf408b.chunk.js.map": "/~mvelezce/static/js/2.1acf408b.chunk.js.map",
+    "static/js/3.65b72375.chunk.js": "/~mvelezce/static/js/3.65b72375.chunk.js",
+    "static/js/3.65b72375.chunk.js.map": "/~mvelezce/static/js/3.65b72375.chunk.js.map",
+    "static/js/4.fef2c956.chunk.js": "/~mvelezce/static/js/4.fef2c956.chunk.js",
+    "static/js/4.fef2c956.chunk.js.map": "/~mvelezce/static/js/4.fef2c956.chunk.js.map",
+    "static/js/5.a2400ddd.chunk.js": "/~mvelezce/static/js/5.a2400ddd.chunk.js",
+    "static/js/5.a2400ddd.chunk.js.map": "/~mvelezce/static/js/5.a2400ddd.chunk.js.map",
+    "static/js/6.817308a6.chunk.js": "/~mvelezce/static/js/6.817308a6.chunk.js",
+    "static/js/6.817308a6.chunk.js.map": "/~mvelezce/static/js/6.817308a6.chunk.js.map",
+    "static/js/7.cdc752c9.chunk.js": "/~mvelezce/static/js/7.cdc752c9.chunk.js",
+    "static/js/7.cdc752c9.chunk.js.map": "/~mvelezce/static/js/7.cdc752c9.chunk.js.map",
+    "static/js/8.45313f22.chunk.js": "/~mvelezce/static/js/8.45313f22.chunk.js",
+    "static/js/8.45313f22.chunk.js.map": "/~mvelezce/static/js/8.45313f22.chunk.js.map",
+    "static/js/9.9bc18baf.chunk.js": "/~mvelezce/static/js/9.9bc18baf.chunk.js",
+    "static/js/9.9bc18baf.chunk.js.map": "/~mvelezce/static/js/9.9bc18baf.chunk.js.map",
+    "static/js/10.3fa01c3f.chunk.js": "/~mvelezce/static/js/10.3fa01c3f.chunk.js",
+    "static/js/10.3fa01c3f.chunk.js.map": "/~mvelezce/static/js/10.3fa01c3f.chunk.js.map",
+    "static/js/11.250021e6.chunk.js": "/~mvelezce/static/js/11.250021e6.chunk.js",
+    "static/js/11.250021e6.chunk.js.map": "/~mvelezce/static/js/11.250021e6.chunk.js.map",
+    "static/js/12.abaa93b3.chunk.js": "/~mvelezce/static/js/12.abaa93b3.chunk.js",
+    "static/js/12.abaa93b3.chunk.js.map": "/~mvelezce/static/js/12.abaa93b3.chunk.js.map",
+    "index.html": "/~mvelezce/index.html",
+    "static/css/main.e6064ea0.chunk.css.map": "/~mvelezce/static/css/main.e6064ea0.chunk.css.map",
+    "static/js/2.1acf408b.chunk.js.LICENSE.txt": "/~mvelezce/static/js/2.1acf408b.chunk.js.LICENSE.txt",
+    "static/js/3.65b72375.chunk.js.LICENSE.txt": "/~mvelezce/static/js/3.65b72375.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f75dade.js",
+    "static/js/3.65b72375.chunk.js",
+    "static/css/main.e6064ea0.chunk.css",
+    "static/js/main.53514817.chunk.js"
+  ]
+}
