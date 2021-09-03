@@ -19,13 +19,12 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Miguel!
+      <p>
+        Hi, I&apos;m Miguel!<br /> {' '}
+        Ph.D. Student in Software Engineering<br /> {' '}
+        Carnegie Mellon University<br /> {' '}
+        Institute for Software Research
       </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
-        </li>
-      </ul>
     </section>
 
     <section id="footer">
