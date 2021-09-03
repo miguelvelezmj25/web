@@ -92,7 +92,7 @@
 	.degree {
 		margin-bottom: .1em;
 		text-transform: none;
-		letter-spacing: 0.16em;
+		letter-spacing: 0.1em;
 		font-size: .8em;
 	}
 
@@ -100,6 +100,17 @@
 		text-transform: none;
 		padding-top: 0.3em;
 		margin-bottom: 1em;
+		letter-spacing: 0.1em;
+		font-size: 0.75em;
+	}
+}
+
+.paper-container {
+	.paper {
+		text-transform: none;
+		line-height: 1.2em;
+		font-size: 0.75em;
+		letter-spacing: 0.1em;
 	}
 }
 

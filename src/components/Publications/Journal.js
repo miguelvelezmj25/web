@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Job from './Experience/Job';
+import JournalPaper from './Publications/Journal';
 
-const Internship = ({ data }) => (
+const Journal = ({ data }) => (
   <div className="experience">
-    <div className="link-to" id="internships" />
+    <div className="link-to" id="journal" />
     <div className="title">
-      <h3>Internships</h3>
+      <h3>Refereed Journal Articles</h3>
     </div>
     {data.map((job) => (
-      <Job
+      <JournalPaper
         data={job}
         key={job.company}
       />
@@ -18,7 +18,7 @@ const Internship = ({ data }) => (
   </div>
 );
 
-Internship.propTypes = {
+Journal.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     company: PropTypes.string,
     position: PropTypes.string,
@@ -28,8 +28,8 @@ Internship.propTypes = {
   })),
 };
 
-Internship.defaultProps = {
+Journal.defaultProps = {
   data: [],
 };
 
-export default Internship;
+export default Journal;

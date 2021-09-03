@@ -1,0 +1,60 @@
+const thesis = [
+  {
+    authors: 'M. Velez, P. Jamshidi, C. Kästner, N. Siegmund, F. Sattler, and S. Apel',
+    title: '"White-Box Performance Discovery"',
+    artifact: 'Poster',
+    venue: 'Google PhD Intern Research Conference',
+    date: 'July 2019',
+    poster: 'poster/VJKSSA-BRASS17.pdf',
+  },
+  {
+    authors: 'M. Velez, P. Jamshidi, C. Kästner, N. Siegmund, F. Sattler, and S. Apel',
+    title: '"White-Box Performance Discovery"',
+    artifact: 'Poster',
+    venue: 'BRASS PI Meeting',
+    date: 'Nov. 2017',
+    poster: 'poster/VJKSSA-BRASS17.pdf',
+  },
+  {
+    authors: 'M. Velez and J. Sawin',
+    title: '"Improving the Efficiency of CHA through Parallelization"',
+    artifact: 'Poster',
+    venue: 'Inquiry at St. Thomas',
+    date: 'May 2016',
+    poster: 'poster/VS-IUST16.pdf',
+  },
+  {
+    authors: 'M. Velez and J. Sawin',
+    title: '"FasterWAH Compression Querying through the Use of Metadata"',
+    artifact: 'Poster',
+    venue: 'Consortium for Computing Sciences in Colleges Midwest Region.',
+    date: '1st place Discovery Track. July 2019',
+    poster: 'poster/VS-CCSC15.pdf',
+  },
+  {
+    authors: 'M. Velez and A. Solar-Lezama',
+    title: '"Simpler Implementation of Sketches through Enhanced Expressiveness"',
+    artifact: 'Poster',
+    venue: 'MIT Summer Research Poster Session',
+    date: 'Aug. 2015',
+    poster: 'poster/VS-MSRP15.pdf',
+  },
+  {
+    authors: 'M. Velez',
+    title: '"Current and Future Relationships Between Robots and Humans"',
+    artifact: 'Summa Cum Laude Paper',
+    venue: 'University of St. Thomas',
+    date: 'Apr. 2015',
+    poster: 'publications/V-SUMMA15.pdf',
+  },
+  {
+    authors: 'M. Velez, P. Gittins, and J. Sawin',
+    title: '"Extending SMILES to Encode Reaction Mechanisms"',
+    artifact: 'Poster',
+    venue: 'Inquiry at St. Thomas',
+    date: 'May 2014',
+    poster: 'VGS-IUST14.pdf',
+  },
+];
+
+export default thesis;
