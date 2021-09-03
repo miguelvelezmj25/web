@@ -11,7 +11,7 @@ const { PUBLIC_URL } = process.env;
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Resume = lazy(() => import('./pages/Resume'));
-const Publications = lazy(() => import('./pages/Publications'));
+const Research = lazy(() => import('./pages/Research'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -19,7 +19,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/resume" component={Resume} />
-        <Route path="/publications" component={Publications} />
+        <Route path="/research" component={Research} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
