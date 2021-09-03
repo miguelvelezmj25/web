@@ -1,4 +1,0 @@
-[submodule "cv"]
-	path = cv
-	url = git@github.com:miguelvelezmj25/cv.git
-	branch = master
