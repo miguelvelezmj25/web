@@ -17,6 +17,8 @@ import research from '../data/resume/research';
 import internship from '../data/resume/internship';
 import awards from '../data/resume/awards';
 
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+
 const sections = [
   'Education',
   'Industry',
@@ -39,6 +41,10 @@ const Resume = () => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>))}
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <h4 className="cv"><a href={`${PUBLIC_URL}/Miguel Velez CV.pdf`}>[Download CV]</a></h4>
           </div>
 
         </div>
