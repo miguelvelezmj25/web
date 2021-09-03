@@ -4,28 +4,28 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
-import Experience from '../components/Resume/Experience';
-import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
+// import Experience from '../components/Resume/Experience';
+import Industry from '../components/Resume/Industry';
+import Research from '../components/Resume/Research';
+import Internship from '../components/Resume/Internship';
 
-import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
-import positions from '../data/resume/positions';
-import { skills, categories } from '../data/resume/skills';
+// import positions from '../data/resume/positions';
+import industry from '../data/resume/industry';
+import research from '../data/resume/research';
+import internship from '../data/resume/internship';
 
 const sections = [
   'Education',
-  'Experience',
-  'Skills',
-  'Courses',
-  'References',
+  'Industry',
+  'Research',
+  'Internships',
 ];
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Miguel Velez's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Miguel Velez's Resume."
   >
     <article className="post" id="resume">
       <header>
@@ -41,10 +41,9 @@ const Resume = () => (
         </div>
       </header>
       <Education data={degrees} />
-      <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      <References />
+      <Industry data={industry} />
+      <Research data={research} />
+      <Internship data={internship} />
 
     </article>
   </Main>
