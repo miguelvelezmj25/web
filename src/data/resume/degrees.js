@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Carnegie Mellon University',
+    degree: 'Doctor of Philosophy in Software Engineering',
+    link: 'https://www.isri.cmu.edu/',
+    year: '2016 - Present',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Carnegie Mellon University',
+    degree: 'Master of Software Engineering',
+    link: 'https://www.isri.cmu.edu/',
+    year: '2016 - Present',
+  },
+  {
+    school: 'University of St. Thomas',
+    degree: 'Bachelor of Arts in Computer Science (Physics minor), Summa Cum Laude',
+    link: 'https://www.stthomas.edu/',
+    year: '2010 - 2015',
   },
 ];
 
