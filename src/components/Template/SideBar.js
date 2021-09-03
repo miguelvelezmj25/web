@@ -20,7 +20,6 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Miguel!<br /> {' '}
         Ph.D. Student in Software Engineering<br /> {' '}
         Carnegie Mellon University<br /> {' '}
         Institute for Software Research
