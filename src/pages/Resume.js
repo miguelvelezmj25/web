@@ -8,18 +8,21 @@ import Education from '../components/Resume/Education';
 import Industry from '../components/Resume/Industry';
 import Research from '../components/Resume/Research';
 import Internship from '../components/Resume/Internship';
+import Awards from '../components/Resume/Awards';
 
 import degrees from '../data/resume/degrees';
 // import positions from '../data/resume/positions';
 import industry from '../data/resume/industry';
 import research from '../data/resume/research';
 import internship from '../data/resume/internship';
+import awards from '../data/resume/awards';
 
 const sections = [
   'Education',
   'Industry',
   'Research',
   'Internships',
+  'Awards',
 ];
 
 const Resume = () => (
@@ -44,6 +47,7 @@ const Resume = () => (
       <Industry data={industry} />
       <Research data={research} />
       <Internship data={internship} />
+      <Awards data={awards} />
 
     </article>
   </Main>
