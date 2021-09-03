@@ -17,7 +17,8 @@ MIJECU25htaccess.txt
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -270,4 +271,16 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm+all
+
+# prefer npm over yarn
+yarn.lock
+
+# Webpack related
+public/dist/
+dist/
+tmp/
+build/
+
+# Nohup
+nohup.out
 
