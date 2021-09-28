@@ -9,7 +9,7 @@ const degrees = [
     school: 'Carnegie Mellon University',
     degree: 'Master of Software Engineering',
     link: 'https://www.isri.cmu.edu/',
-    year: '2016 - Present',
+    year: '2016 - 2020',
   },
   {
     school: 'University of St. Thomas',
